@@ -1,0 +1,25 @@
+---
+title: "Polling Locations Near University Park, PA (2020)"
+output:
+  html_document:
+    df_print: paged
+---
+
+## Date: 12/06/2020
+
+```{r, echo = FALSE}
+library(leaflet)
+```
+
+```{r, echo = FALSE, cache = TRUE}
+poll <- read.csv("polls.csv")
+poll %>% 
+      leaflet() %>%
+      addTiles() %>%
+      addMarkers()
+```
+
+
+
+
+
