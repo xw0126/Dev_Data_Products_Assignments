@@ -9,3 +9,5 @@ Contents:
         External link to this work: https://rpubs.com/xwang1642/ddp_w3assignment
         
   - Week 4 Assignment 
+        Link to my shiny app: https://xiaohanwang.shinyapps.io/Project_covid/
+        Link to the pitch presentation: https://rpubs.com/xwang1642/ddp_w4assignment
